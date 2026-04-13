@@ -1,1 +1,100 @@
-document.getElementById('year') && (document.getElementById('year').textContent = new Date().getFullYear());
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>قبائل الشعفين من بلاد بني شهر | قبائل الشعفين من بلاد بني شهر</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<script defer src="script.js"></script>
+</head>
+<body class="">
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html">
+      <strong>قبائل الشعفين من بلاد بني شهر</strong>
+      <span>موسوعة أولية لتوثيق القبائل والأنساب والسير</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">الرئيسية</a>
+      <a href="shuafin.html">عن الشعفين</a>
+      <a href="al-maafa.html">آل معافا</a><a href="al-marouh.html">آل مروح</a><a href="al-majadib.html">آل مجادب</a><a href="al-zahran.html">آل زخران</a><a href="al-safwan.html">آل صفوان</a><a href="al-muhdal.html">آل محدل</a><a href="al-hussein.html">آل حسين</a><a href="al-yala.html">آل يعلى</a><a href="al-raziq.html">آل رزيق</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero__frame">
+      <div class="hero__overlay">
+        <div class="hero__content">
+          <h1>قبائل الشعفين من بلاد بني شهر</h1>
+          <p>واجهة أولية لموسوعة توثيقية تجمع قبائل الشعفين، وتعرض موجزًا عن كل قبيلة مع صفحات مستقلة بطابع بصري مختلف، وقوائم داخلية للفرسان والمؤثرين والشعراء، ومساحات مهيأة لإضافة شجرات العائلات لاحقًا.</p>
+          <div class="hero__actions">
+            <a class="btn" href="#tribes">تصفح القبائل</a>
+            <a class="btn btn--ghost" href="al-zahran.html#faras">سيرة الشيخ فَرّاس داخل آل زخران</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container shuafin-summary">
+    <div class="panel pattern-box">
+      <div class="section-title"><h2>موجز عن الشعفين</h2></div>
+      <p>قبيلة الشعفين من قبائل بني شهر، وتنقسم في المادة التي زوّدتني بها إلى ثمان عشائر في تنومة، مع أقسام تتبعهم في البادية وتهامة. وتقيم هذه القبائل في عدد من القرى في سبت تنومة والشعوف المطلة على تهامة، وترتبط بتاريخ محلي واجتماعي بارز، ومن ذلك مسؤوليتها عن أمن السوق الأسبوعي القديم المعروف بسبت تنومة أو سبت بن العريف، وارتباط مشيخة بني أثلة بآل العريف منهم.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><strong>8</strong><span>العشائر المذكورة في المادة الأساسية</span></div>
+      <div class="stat"><strong>9</strong><span>صفحات قبائل مفصولة داخل الموقع بعد فصل آل زخران عن آل صفوان</span></div>
+      <div class="stat"><strong>3</strong><span>قوائم داخلية لكل قبيلة: الفرسان، المؤثرون، الشعراء</span></div>
+      <div class="stat"><strong>9</strong><span>مساحات شجرات جاهزة للتعبئة لاحقًا</span></div>
+    </div>
+  </div>
+</section>
+<section id="tribes" class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>قبائل الشعفين</h2>
+      <p>كل قبيلة لها صفحة مستقلة بطابع مختلف، مع موجز أولي، وقوائم داخلية، ومساحة مخصصة لشجرة العائلة، بحيث نكمل تعبئتها معك لاحقًا.</p>
+    </div>
+    <div class="grid cards">
+      <a class="tribe-card maafa" href="al-maafa.html"><img class="tribe-card__image" src="images/maafa.jpg" alt="آل معافا"><span class="tribe-card__name">آل معافا</span><span class="tribe-card__summary">من قبائل الشعفين، ومواطنهم بالشعف وعلى الطريق المؤدي إلى الأربوعة ووادي عقبة برمة. ومن قراهم: العرق، وآل زهوان، وقرى الأربوعة ومنها رقبة، والشعبين، والقعواء، وعقبة برمة.</span></a><a class="tribe-card marouh" href="al-marouh.html"><img class="tribe-card__image" src="images/marouh.jpg" alt="آل مروح"><span class="tribe-card__name">آل مروح</span><span class="tribe-card__summary">من قبائل الشعفين التي تقع في الشعف، ومن قراهم: قرية آل مروح، وآل منغمش، ووادي الدغنة بالأربوعة، وقرية هضبة المطلة على تهامة.</span></a><a class="tribe-card majadib" href="al-majadib.html"><img class="tribe-card__image" src="images/majadib.jpg" alt="آل مجادب"><span class="tribe-card__name">آل مجادب</span><span class="tribe-card__summary">من قبائل الشعفين، ومنهم آل السيارة بمنعاء وآل الوادي بوادي المطعن. ومن قراهم: آل عظاه، والشرف، والوادي، والحدب، وآل السيارة. ويذكر في الرواية المحلية أنهم يشكلون ربع الشعفين.</span></a><a class="tribe-card zahran" href="al-zahran.html"><img class="tribe-card__image" src="images/zahran.jpg" alt="آل زخران"><span class="tribe-card__name">آل زخران</span><span class="tribe-card__summary">من قبائل الشعفين، ومن قراهم: ظرفان، وآل زخران، وآل قاصلة. وترتبط هذه القبيلة بعدد من الأعلام والمرويات، ومن أبرزها سيرة الشيخ فَرّاس بن محمد بن علي آل زخران الشهري.</span></a><a class="tribe-card safwan" href="al-safwan.html"><img class="tribe-card__image" src="images/safwan.jpg" alt="آل صفوان"><span class="tribe-card__name">آل صفوان</span><span class="tribe-card__summary">من قبائل الشعفين، وقد أفردت لهم هذه الصفحة بوصفهم قسمًا مستقلًا داخل الموسوعة، على أن تستكمل تفاصيل القرى والأسر والمرويات لاحقًا.</span></a><a class="tribe-card muhdal" href="al-muhdal.html"><img class="tribe-card__image" src="images/muhdal.jpg" alt="آل محدل"><span class="tribe-card__name">آل محدل</span><span class="tribe-card__summary">من قبائل الشعفين، ومن قراهم: لقبال، والبطن، وعتمة، وترتع. وهذه الصفحة مخصصة لعرض موجز القبيلة وشجرتها وقوائم أعلامها مبدئيًا.</span></a><a class="tribe-card hussein" href="al-hussein.html"><img class="tribe-card__image" src="images/hussein.jpg" alt="آل حسين"><span class="tribe-card__name">آل حسين</span><span class="tribe-card__summary">من قبائل الشعفين، ومن قراهم: قرية آل حسين وقرية السبت. وتقدم هذه الصفحة عرضًا أوليًا للقبيلة مع مساحة للشجرة والمصادر والقوائم الداخلية.</span></a><a class="tribe-card yala" href="al-yala.html"><img class="tribe-card__image" src="images/yala.jpg" alt="آل يعلى"><span class="tribe-card__name">آل يعلى</span><span class="tribe-card__summary">من قبائل الشعفين، ومن قراهم: آل مرحب، وآل حزيبر، والسوق. ويعود فيهم آل الشبيلي شيوخ شمل بني شهر، مما يمنحهم مكانة خاصة في باب الأعلام والمشيخة.</span></a><a class="tribe-card raziq" href="al-raziq.html"><img class="tribe-card__image" src="images/raziq.jpg" alt="آل رزيق"><span class="tribe-card__name">آل رزيق</span><span class="tribe-card__summary">يعودون في قبيلة بني جبير بالنماص، وتحالفوا مع الشعفين، ولهم قرية العطف بمنعاء، ويتبعون في المشيخة آل العريف من آل يعلى.</span></a>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container columns">
+    <div class="panel pattern-box">
+      <div class="section-title"><h2>الأعلام والسير</h2></div>
+      <p>أُدرجت سيرة الشيخ فَرّاس بن محمد بن علي آل زخران الشهري داخل صفحة آل زخران مباشرة، مع ترك مساحة لتوسعة السيرة وإضافة الروايات والقصائد والمصادر لاحقًا.</p>
+      <div class="hero__actions"><a class="btn" href="al-zahran.html#faras">فتح سيرة الشيخ فَرّاس</a></div>
+    </div>
+    <div class="panel">
+      <div class="section-title"><h2>البنية الحالية للموقع</h2></div>
+      <div class="quick-list">
+        <div class="item"><strong>الرئيسية</strong><span>واجهة عامة وهوية الموقع وقسم القبائل.</span></div>
+        <div class="item"><strong>عن الشعفين</strong><span>تعريف عام وموجز تاريخي واجتماعي.</span></div>
+        <div class="item"><strong>صفحات القبائل</strong><span>موجز مختلف لكل قبيلة وقوائم داخلية وشجرة فارغة.</span></div>
+        <div class="item"><strong>سيرة الشيخ فَرّاس</strong><span>مدمجة الآن داخل صفحة آل زخران.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="section-title"><h2>لوحة بصرية للقبائل</h2><p>تجميع بصري أولي للقبائل التسع داخل الموقع، مع تخصيص صورة تعريفية لكل قبيلة داخل صفحتها الخاصة.</p></div>
+    <div class="panel"><img src="images/main-collage.jpg" alt="لوحة قبائل الشعفين من بلاد بني شهر" style="border-radius:20px; width:100%; height:auto; object-fit:cover;"></div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="panel">هذا النموذج أولي وقابل للتطوير، وقد أُعد ليكون قاعدة عمل لتنظيم المحتوى، وإضافة شجرات العائلات، والصور، والوثائق، والمصادر لاحقًا بالتدرج. <span id="year"></span></div>
+  </div>
+</footer>
+</body></html>
