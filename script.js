@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.add('page-leaving');
         setTimeout(() => {
           window.location.href = href;
-        }, 220);
+        }, 360);
       });
     }
   });
