@@ -121,6 +121,3 @@ body{opacity:1;transition:opacity .38s ease, transform .38s ease, filter .38s ea
 body.page-leaving{opacity:0;transform:translateY(18px) scale(.99);filter:blur(2px)}
 body::after{transition:opacity .38s ease}
 @media (max-width:700px){.tree-node{min-width:130px}}
-
-
-.elegant-list{margin:0;padding-right:1.2rem;line-height:2}.elegant-list li{margin:0.15rem 0;}
