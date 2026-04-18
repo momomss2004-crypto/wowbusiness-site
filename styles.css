@@ -121,3 +121,18 @@ body{opacity:1;transition:opacity .38s ease, transform .38s ease, filter .38s ea
 body.page-leaving{opacity:0;transform:translateY(18px) scale(.99);filter:blur(2px)}
 body::after{transition:opacity .38s ease}
 @media (max-width:700px){.tree-node{min-width:130px}}
+
+
+.subdivision-box{
+  margin-top:16px;
+  padding:16px 18px;
+  border:1px solid rgba(232, 199, 125, 0.28);
+  border-radius:18px;
+  background:rgba(255,255,255,0.03);
+}
+.subdivision-box p{
+  margin:0 0 10px;
+}
+.subdivision-box p:last-child{
+  margin-bottom:0;
+}
